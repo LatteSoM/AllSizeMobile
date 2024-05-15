@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AllSize</string>
+    <string name="login">Login</string>
+    <string name="username">username</string>
+    <string name="password">password\n</string>
+    <string name="click_to_register">click to register\n</string>
+    <string name="register">Register\n</string>
+    <string name="click_to_login">Click To Login</string>
+</resources>

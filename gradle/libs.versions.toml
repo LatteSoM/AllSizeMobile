@@ -1,0 +1,33 @@
+[versions]
+agp = "8.3.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+material = "1.10.0"
+activity = "1.8.0"
+constraintlayout = "2.1.4"
+retrofit_ver = "2.5.0"
+picasso-ver = "2.5.2"
+logi = "4.2.1"
+fresver = "3.1.3"
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+retrofit = {group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit_ver"}
+converter = {group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit_ver"}
+picasso = {group = "com.squareup.picasso", name = "picasso", version.ref = "picasso-ver"}
+inter = {group = "com.squareup.okhttp3", name = "logging-interceptor",version.ref="logi"}
+frescoweb = {group = "com.facebook.fresco", name = "fresco", version.ref = "fresver"}
+fresco = {group = "com.facebook.fresco", name = "webpsupport", version.ref = "fresver"}
+
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+
